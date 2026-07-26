@@ -1,0 +1,150 @@
+<!DOCTYPE html> <!-- this page was written by Bader Bin Saidan  -->
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Campus Events Hub | Register</title>
+
+    <!-- the shared external CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!--the header-->
+
+    <header>
+
+        <img src="images/logo.png" alt="Campus Events Hub Logo">
+
+        <h1>Campus Events Hub</h1>
+
+        <p>Discover. Connect. Participate.</p>
+
+    </header>
+
+    <!--the navigation-->
+
+    <nav>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="events.html">Events</a></li>
+
+            <li><a href="register.html">Register</a></li>
+
+            <li><a href="registrationslist.html">Registrations</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+        </ul>
+
+    </nav>
+
+    <!-- the main content -->
+    <main>
+
+        <section>
+
+            <h2>Register for an Event</h2>
+
+            <p>
+                Complete the registration form below to reserve your place at one of our upcoming campus events.
+                All fields marked with * are required.
+            </p>
+
+            <form action="#" method="post">
+
+
+                <label for="fullname">Full Name *</label><!-- the full name -->
+
+                <input
+                    type="text"
+                    id="fullname"
+                    name="fullname"
+                    placeholder="Enter your full name"
+                    required>
+
+                <label for="studentid">Student ID *</label><!-- the student ID-->
+
+                <input
+                    type="text"
+                    id="studentid"
+                    name="studentid"
+                    placeholder="Example: 44123456"
+                    required>
+
+                
+
+                <label for="email">University Email *</label><!--the email-->
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="example@university.edu"
+                    required>
+
+            
+                <label for="event">Select an Event *</label><!-- to select an event -->
+
+                <select id="event" name="event" required>
+
+                    <option value="">-- Select an Event --</option>
+
+                    <option>Artificial Intelligence Workshop</option>
+
+                    <option>Career Fair</option>
+
+                    <option>Outdoor Movie Night</option>
+
+                    <option>Football Tournament</option>
+
+                    <option>Mental Health Workshop</option>
+
+                    <option>Robotics Club Meeting</option>
+
+                </select>
+
+
+                <label for="requests">Special Requests (Optional)</label><!-- special requests -->
+
+                <textarea
+                    id="requests"
+                    name="requests"
+                    rows="4"
+                    placeholder="Any accessibility or special requirements?"></textarea>
+
+
+                <button type="submit" class="button"><!-- the buttons-->
+                    Submit Registration
+                </button>
+
+                <button type="reset" class="button">
+                    Clear Form
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer><!-- the Footer-->
+
+        <p>&copy; 2026 Campus Events Hub</p>
+
+        <p>Managed by the Student Activities Department</p>
+
+    </footer>
+
+</body>
+
+</html>
